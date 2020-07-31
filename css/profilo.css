@@ -1,0 +1,35 @@
+footer{
+  clear:both;
+  background-color: blue ;
+  text-align: center;
+  color:white ; clear: both;
+}
+
+p{
+  text-align: justify;
+}
+.column{
+float: left;
+padding: 10px;
+text-align:left;
+
+}
+
+.column.side{
+  width:20%;
+}
+.column.middle{
+  width: 50%
+}
+@media screen and (max-width:633px)
+ {
+  .column.side,.column.middle{
+    width: 100%
+  }
+}
+div.gallery {
+margin: 5px;
+border:10px solid black;
+float: left;
+width: 200px;
+}
